@@ -1,38 +1,45 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
-
 function App() {
-    const [count, setCount] = useState(0);
 
     return (
-        <>
-            <div>
-                <a href="https://vitejs.dev" target="_blank">
-                    <img src={viteLogo} className="logo" alt="Vite logo" />
-                </a>
-                <a href="https://react.dev" target="_blank">
-                    <img
-                        src={reactLogo}
-                        className="logo react"
-                        alt="React logo"
-                    />
-                </a>
-            </div>
-            <h1>Vite + React</h1>
-            <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-                </button>
-                <p>
-                    Edit <code>src/App.tsx</code> and save to test HMR
-                </p>
-            </div>
-            <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
-            </p>
-        </>
+        <main className="[&>*]:px-3 sm:[&>*]:px-4">
+            <section aria-label="app" className={`min-h-screen`}>
+                <header className="mx-auto flex max-w-2xl gap-2 py-4">
+                    <h1
+                        className={`mr-auto text-2xl font-bold text-white`}
+                    >
+                        Pomotama
+                    </h1>
+                </header>
+            </section>
+
+            <section
+                className="mt-10 bg-white/85"
+                aria-label="pomodoro timer user manual"
+            >
+                <div id="instruction" className="center p-6 [--max:42rem]">
+                    <h2 className="text-xl font-bold text-gray-900">
+                        How to use the Pomodoro Timer?
+                    </h2>
+                    <ol className="prose mt-4 list-decimal space-y-2 pl-5 text-gray-700">
+                        <li>Add tasks to work on today</li>
+                        <li>
+                            Set estimate pomodoros (1 = 25min of work) for each
+                            task
+                        </li>
+                        <li>Select a task to work on</li>
+                        <li>
+                            Start timer and focus on the task for 25 minutes
+                        </li>
+                        <li>Take a break for 5 minutes when the alarm rings</li>
+                        <li>Iterate 3-5 until you finish the tasks</li>
+                    </ol>
+                    <p className="mt-4 text-sm text-gray-600">
+                        💡 Tip: The selected task will update its est.pomodoro
+                        number once the pomodoro timer has finished!
+                    </p>
+                </div>
+            </section>
+        </main>
     );
 }
 
