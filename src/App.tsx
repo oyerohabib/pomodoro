@@ -7,7 +7,7 @@ function App() {
                     <h1
                         className={`mr-auto text-2xl font-bold text-white`}
                     >
-                        Pomotama
+                        Pomodoro
                     </h1>
                 </header>
             </section>
