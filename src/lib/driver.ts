@@ -6,9 +6,9 @@ const driverObj = driver({
     steps: [
         {
             popover: {
-                title: 'Welcome to Pomotama',
+                title: 'Welcome to Pomodoro',
                 description:
-                    '<p>Pomotama: Your customizable Pomodoro timer for desktop and mobile browsers. It helped you stay focus on tasks like studying, writing, or coding.</p><p style="margin-top: 1rem;">To leave the tutorial, you can also click on <mark>esc</mark> key.</p>',
+                    '<p>Pomodoro: Your customizable Pomodoro timer for desktop and mobile browsers. It helped you stay focus on tasks like studying, writing, or coding.</p><p style="margin-top: 1rem;">To leave the tutorial, you can also click on <mark>esc</mark> key.</p>',
             },
         },
         {
@@ -54,7 +54,7 @@ const driverObj = driver({
             popover: {
                 title: 'Happy Coding',
                 description:
-                    'And that is all, go ahead and start your day with Pomotama!',
+                    'And that is all, go ahead and start your day with Pomodoro!',
             },
         },
     ],

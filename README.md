@@ -1,6 +1,20 @@
 # 🍅 Pomodoro
 
-[Pomodoro](https://my-pomodoro.netlify.app/) is a timer app inspired by [Pomofocus.io](https://pomofocus.io/), built with React and TypeScript. I love Pomofocus.io so much that I'm basically using it every day while doing tasks. While it's being really helpful to my productivity flow, I feel like I can improve the app to suit my need more. Therefore, I built this side project for both learning purposes and personal usage.
+[Pomodoro](https://our-pomodoro.netlify.app/) is a timer app inspired by [Pomofocus.io](https://pomofocus.io/), built with React and TypeScript. I love Pomofocus.io so much that I'm basically using it every day while doing tasks. While it's being really helpful to my productivity flow, I feel like I can improve the app to suit my need more. Therefore, I built this side project for both learning purposes and personal usage.
+
+## 📸 Screenshots
+
+|                                                   |                                                  |
+| :-----------------------------------------------: | :----------------------------------------------: |
+| ![Screenshot 6](https://i.imgur.com/tJm5TQf.jpeg) | ![Screenshot 5](https://i.imgur.com/OMgwa1J.jpeg) |
+| ![Screenshot 3](https://i.imgur.com/ajOYyXQ.jpeg) | ![Screenshot 4](https://i.imgur.com/uW2mfZg.jpeg) |
+| ![Screenshot 2](https://i.imgur.com/qEjLyXK.jpeg) | ![Screenshot 1](https://i.imgur.com/lei3Ntj.jpeg) |
+| ![Screenshot 2](https://i.imgur.com/Xje7MVo.jpeg) | ![Screenshot 1](https://i.imgur.com/6m3c63y.jpeg) |
+
+## Prerequisites
+
+- [NodeJS](https://nodejs.org/en/) version 14+
+- [Docker](https://docs.docker.com/engine/install/ubuntu/) (optional, if you will be running the game with docker)
 
 ## 📦 Technologies
 
@@ -55,7 +69,40 @@ Here's what Pomodoro offers:
 
 To run the project in your local environment, follow these steps:
 
-1. Clone the repository to your local machine.
-2. Run npm install or pnpm install or yarn in the project directory to install the required dependencies.
-3. Run npm run start or pnpm run start or yarn start to get the project started.
-4. Open <http://localhost:5173> (or the address shown in your console) in your web browser to view the app.
+1. Clone this project using the following command:
+
+   ```bash
+   git clone https://github.com/oyerohabib/pomodoro.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd pomodoro
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Build the project:
+
+   ```bash
+   npm run build
+   ```
+
+5. Preview the project:
+
+   ```bash
+   npm run preview
+   ```
+
+6. Open <http://localhost:5173> (or the address shown in your console) in your web browser to view the app.
+
+7. To run the test cases, use:
+
+   ```bash
+   npm run test
+   ```

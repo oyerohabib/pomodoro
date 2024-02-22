@@ -37,7 +37,7 @@ const App = () => {
                     <h1
                         className={`mr-auto text-2xl font-bold text-white ${hiddenClass}`}
                     >
-                        Pomotama
+                        Pomodoro
                     </h1>
                     <Button
                         intent="secondary"
