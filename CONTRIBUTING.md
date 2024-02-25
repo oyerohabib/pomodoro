@@ -1,10 +1,10 @@
-# Contributing to Hangman Game
+# Contributing to Pomodoro App
 
 Thank you for considering contributing to the Pomodoro App! We welcome contributions from the community to help improve and grow the project.
 
 ## How to Contribute
 
-We appreciate your interest in contributing to the Hangman Game. To get started, follow these steps:
+We appreciate your interest in contributing to the Pomodoro App. To get started, follow these steps:
 
 1. Fork the repository to your GitHub account.
 
