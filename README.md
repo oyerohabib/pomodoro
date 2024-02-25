@@ -107,6 +107,36 @@ To run the project in your local environment, follow these steps:
    npm run test
    ```
 
+Alternatively, you can run the application using Docker, after step 2 above, run the below commands:
+
+1. Open and start the Docker Application on your computer.
+2. Login into docker by running, ```docker login``` command and ensure the login is successful.
+3. Build the Docker Image:
+
+   ```bash
+   docker build -t pomodoro .
+   ```
+
+4. Run the Docker Container:
+
+   ```bash
+   docker run -p 5173:5173 -d pomodoro
+   ```
+
+Alternatively, you can pull the docker image (from docker hub) and simply run, without having to build or clone it.
+
+1. Pull the Docker Image:
+
+   ```bash
+   docker pull habibo1234/pomodoro:1.0
+   ```
+
+2. Run the Docker Image:
+
+   ```bash
+   docker run -p 5173:5173 -d habibo1234/pomodoro:1.0
+   ```
+
 ## Contributing to project
 
 Thank you for considering contributing to the Pomodoro App! We welcome contributions from the community to help improve and grow the project.
