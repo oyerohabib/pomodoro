@@ -14,7 +14,7 @@
 ## Prerequisites
 
 - [NodeJS](https://nodejs.org/en/) version 14+
-- [Docker](https://docs.docker.com/engine/install/ubuntu/) (optional, if you will be running the game with docker)
+- [Docker](https://docs.docker.com/engine/install/ubuntu/) (optional, if you will be running the App with docker)
 
 ## 📦 Technologies
 
@@ -106,3 +106,13 @@ To run the project in your local environment, follow these steps:
    ```bash
    npm run test
    ```
+
+## Contributing to project
+
+Thank you for considering contributing to the Pomodoro App! We welcome contributions from the community to help improve and grow the project.
+
+Please note that this project adheres to the [Contributor Covenant Code of Conduct](CONTRIBUTING.md). By participating, you are expected to uphold this code. Please report any unacceptable behavior.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
