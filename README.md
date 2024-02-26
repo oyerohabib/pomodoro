@@ -120,7 +120,7 @@ Alternatively, you can run the application using Docker, after step 2 above, run
 4. Run the Docker Container:
 
    ```bash
-   docker run -p 5173:5173 -d pomodoro
+   docker run -p 5173:5173 -d pomodoro:1.0
    ```
 
 Alternatively, you can pull the docker image (from docker hub) and simply run, without having to build or clone it.
