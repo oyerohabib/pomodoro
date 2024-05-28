@@ -1,6 +1,6 @@
 # 🍅 Pomodoro
 
-[Pomodoro](https://our-pomodoro.netlify.app/) is a timer app inspired by [Pomofocus.io](https://pomofocus.io/), built with React and TypeScript. I love Pomofocus.io so much that I'm basically using it every day while doing tasks. While it's being really helpful to my productivity flow, I feel like I can improve the app to suit my need more. Therefore, I built this side project for both learning purposes and personal usage.
+This timer [app](https://our-pomodoro.netlify.app/), built with React and TypeScript, is designed to enhance productivity. I developed it as a side project to learn new skills and customize features to better suit my personal workflow, which has significantly improved my daily task management.
 
 ## 📸 Screenshots
 
