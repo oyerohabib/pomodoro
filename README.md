@@ -34,7 +34,7 @@ This productivity [app](https://our-pomodoro.netlify.app/), built with React and
 - **Track Daily Tasks**: Manage your to-dos effortlessly - add, remove, edit, and toggle tasks as needed.
 - **Estimate Finish Time**: Get an estimate of the time required to complete your daily tasks.
 
-## 🤔 How to use a Pomodoro timer?
+## 🤔 How to use it
 
 1. **Add tasks** to work on today
 2. **Set estimate pomodoros** (1 = 25min of work) for each task
