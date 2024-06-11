@@ -1,6 +1,6 @@
 # 🍅 Pomodoro
 
-This timer [app](https://our-pomodoro.netlify.app/), built with React and TypeScript, is designed to enhance productivity. I developed it as a side project to learn new skills and customize features to better suit my personal workflow, which has significantly improved my daily task management.
+This productivity [app](https://our-pomodoro.netlify.app/), built with React and TypeScript was designed to enhance my productivity. I developed it as a side project to learn new skills and customize features to better suit my personal workflow, which has significantly improved my daily task management.
 
 ## 📸 Screenshots
 
@@ -16,19 +16,17 @@ This timer [app](https://our-pomodoro.netlify.app/), built with React and TypeSc
 - [NodeJS](https://nodejs.org/en/) version 14+
 - [Docker](https://docs.docker.com/engine/install/ubuntu/) (optional, if you will be running the App with docker)
 
-## 📦 Technologies
+## 📦 Technologies Used
 
 - <code>Vite</code>
 - <code>React.js</code>
 - <code>TypeScript</code>
 - <code>Tailwind CSS</code>
-- <code>Testing Library</code>
+- <code>Testing Library (Jest)</code>
 - <code>Jotai</code>
 - <code>Driver.js</code>
 
 ## ✨ Features
-
-Here's what Pomodoro offers:
 
 - **Start Pomodoro Session**: Just hit start, and you're off!
 - **Timer Indicators**: Keep an eye on your time with handy indicators.
@@ -50,15 +48,14 @@ Here's what Pomodoro offers:
 
 ## 📚 What I Learned
 
-- Wireframing the app
-- Structuring React projects
-- Create custom hooks
-- Exploring Jotai, global state management
-- Discovering Driver.js
-- Utilising Web Worker
+- Advanced Wireframing techniques
+- Development of more complex custom hooks
+- Exploring Jotai for state management
+- Integrating Driver.js for improving user experience
+- Utilising Web Worker for background tasks
 - Implementing unit tests and component tests
 
-## 💭 How can it be improved?
+## 💭 Future improvements
 
 - Enable customisation of background color for different timer mode
 - Enable customisation of sound
